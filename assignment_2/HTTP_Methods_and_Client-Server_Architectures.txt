@@ -1,0 +1,35 @@
+HTTP Methods and Client-Server Architectures
+HTTP Methods are the standard set of request types used by the client to communicate with the server in a web architecture. Each HTTP method indicates the desired action to be performed on a resource identified by a given URL.
+
+Common HTTP Methods:
+GET:
+
+Purpose: Retrieve data from the server.
+Usage: Used when you want to request data from a specified resource.
+Example: When you visit a webpage, your browser sends a GET request to the server to fetch the page content.
+POST:
+
+Purpose: Send data to the server to create a new resource.
+Usage: Used for submitting form data or uploading a file.
+Example: When you submit a registration form on a website, the form data is sent to the server using a POST request.
+PUT:
+
+Purpose: Update an existing resource on the server.
+Usage: Used when you want to update a resource with new information.
+Example: Updating user profile details on a social media site.
+DELETE:
+
+Purpose: Remove a resource from the server.
+Usage: Used when you want to delete a resource.
+Example: Deleting a post on a blog.
+PATCH:
+
+Purpose: Apply partial modifications to a resource.
+Usage: Similar to PUT, but used when only part of the resource needs to be updated.
+Example: Updating only the email address in a user profile.
+
+Role of HTTP Methods in Client-Server Communication:
+Interaction: The client uses HTTP methods to interact with resources on the server.
+Resource Manipulation: Each method specifies the type of action the client wants to perform on a resource, whether retrieving, creating, updating, or deleting it.
+Statelessness: HTTP is stateless, meaning each request is independent, and the server does not retain session information between requests.
+RESTful Services: HTTP methods are integral to REST (Representational State Transfer) architectures, where resources are accessed and manipulated through a stateless, standardized interface using these methods.
